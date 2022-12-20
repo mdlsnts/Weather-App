@@ -99,6 +99,16 @@ footer {
   color: #393e46;
   font-family: "Montserrat Alternates", sans-serif;
 }
+.gitHubLink {
+  text-decoration: none;
+  font-weight: bold;
+  color: #7f167f;
+  opacity: 90%;
+}
+.gitHubLink:hover {
+  font-weight: bold;
+  color: #cb1c8d;
+}
 .profile {
   text-decoration: none;
   font-weight: bold;
@@ -106,7 +116,7 @@ footer {
   opacity: 90%;
 }
 .profile:hover {
-  color: #9c254d;
+  color: #7f167f;
   font-weight: bold;
 }
 .searchForm {
