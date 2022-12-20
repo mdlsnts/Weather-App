@@ -1,0 +1,200 @@
+h1 {
+  font-size: 50px;
+  margin: 20px;
+  text-align: center;
+  font-family: "Gruppo", cursive;
+  font-weight: bold;
+  color: #00005c;
+}
+.searchEngine {
+  margin: auto;
+  width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 700px;
+  background-image: url("../img/rodion-kutsaiev-8P-uQaTd8rw-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px;
+  border-radius: 9px;
+  margin: 10px auto;
+}
+ul {
+  padding: 0;
+  text-align: center;
+  list-style: none;
+}
+li {
+  display: inline-block;
+  margin: 0 20px;
+}
+.fa-cloud {
+  font-size: 25px;
+  color: #25316d;
+}
+.fa-snowflake {
+  font-size: 25px;
+  color: #25316d;
+}
+.weather-icon-today {
+  font-size: 90px;
+  color: #25316d;
+  text-align: center;
+  margin: 0 auto;
+  padding: 40px 10px 10px 20px;
+}
+.currentCity {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 35px;
+  color: #16213e;
+}
+.currentDate {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 18px;
+  text-align: center;
+  color: #16213e;
+}
+.currentTemp {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 46px;
+  text-align: center;
+  font-weight: bold;
+  color: #16213e;
+}
+.currentDetails {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 14px;
+  color: #16213e;
+}
+.currentNumbers {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #16213e;
+}
+.col-2 {
+  text-align: center;
+  margin-top: 20px;
+}
+.forecastDay {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #16213e;
+}
+.forecastDetails {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 16px;
+  color: #16213e;
+}
+
+footer {
+  text-align: center;
+  margin: 10px 0;
+  font-size: 12px;
+  color: #393e46;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+.profile {
+  text-decoration: none;
+  font-weight: bold;
+  color: #2a3990;
+  opacity: 90%;
+}
+.profile:hover {
+  color: #9c254d;
+  font-weight: bold;
+}
+.searchForm {
+  display: inline-block;
+  border: solid 1px #d2d2d2;
+  font-family: "Montserrat Alternates", sans-serif;
+  padding: 3px 5px;
+  border-radius: 2em;
+  box-shadow: 0 1px 0px rgb(0 0 0 / 10%);
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#fff),
+    to(#ededed)
+  );
+}
+.form {
+  margin-top: 0em;
+}
+.searchField {
+  background: #fff;
+  padding: 6px 6px 6px 6px;
+  width: 200px;
+  border: solid 1px #bcbbbb;
+  outline: none;
+  border-radius: 2em;
+  box-shadow: inset 0 1px 2px rgb(0 0 0 / 20%);
+}
+.searchButton {
+  color: #fff;
+  border: solid 1px #16213e;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 11px;
+  height: 27px;
+  width: 27px;
+  text-shadow: 0 1px 1px rgb(0 0 0 / 60%);
+  border-radius: 2em;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#c689c6),
+    to(#4d4c7d)
+  );
+}
+.searchForm input {
+  font: normal 12px/100% "Montserrat Alternates", sans-serif;
+}
+.currentButton {
+  color: #fff;
+  border: solid 1.5px #16213e;
+  font-size: 13px;
+  font-family: "Montserrat Alternates", sans-serif;
+  height: 30px;
+  width: 70px;
+  text-shadow: 0 1px 1px rgb(0 0 0 / 60%);
+  border-radius: 2em;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(#c689c6),
+    to(#4d4c7d)
+  );
+  margin-left: 40px;
+}
+
+#currentTime {
+  text-align: right;
+  margin-left: 225px;
+  font: normal 12px/100% "Special Elite", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #16213e;
+}
+#separator {
+  animation: animate 1.5s linear infinite;
+}
+
+@keyframes animate {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 0;
+  }
+}
